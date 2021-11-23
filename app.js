@@ -24,10 +24,10 @@ app.get('/about', (req, res) => {
     res.sendFile(htmlFilePath);
 });
 
-// app.get('/confirm', (req, res) => {
-//     const htmlFilePath = path.join(__dirname, 'views', 'confirm.html');
-//     res.sendFile(htmlFilePath);
-// });
+app.get('/confirm', (req, res) => {
+    const htmlFilePath = path.join(__dirname, 'views', 'confirm.html');
+    res.sendFile(htmlFilePath);
+});
 
 app.listen(port);
 
