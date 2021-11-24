@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Dinara Restiks",
+        "address": "Malkalnes 22",
+        "cuisine": "Meksikanu",
+        "website": "https://www.meksikanurestiks.lv",
+        "description": "Lielisks Ediens"
+    },
+    {
+        "name": "Ilzite",
+        "address": "Malkalnes 3, Ogre",
+        "cuisine": "Latvju",
+        "website": "https://mazailzite.lv",
+        "description": "Lielisks ediens par zemam cenam!!!"
+    }
+]
