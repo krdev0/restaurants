@@ -20,7 +20,9 @@ app.get('/', (req, res) => {
 });
 
 app.get('/restaurants', (req, res) => {
-    res.render('restaurants');
+    res.render('restaurants', {
+        numberOfRestaurants: 2
+    });
 });
 
 app.get('/recommended', (req, res) => {
