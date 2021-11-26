@@ -20,8 +20,14 @@ app.get('/', (req, res) => {
 });
 
 app.get('/restaurants', (req, res) => {
+    const jsonFilePath = path.join(__dirname, 'data', 'restaurants.json');
+
+    const fileData = fs.readFileSync(jsonFilePath);
+    const storedRestaurants = JSON.parse(fileData);
+
     res.render('restaurants', {
-        numberOfRestaurants: 2
+        numberOfRestaurants: storedRestaurants.length,
+        restaurants: storedRestaurants
     });
 });
 
@@ -49,7 +55,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/confirm', (req, res) => {
-   res.render('confirm');
+    res.render('confirm');
 });
 
 app.listen(port);
