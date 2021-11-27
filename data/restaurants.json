@@ -1,1 +1,34 @@
-[{"name":"Dinara Restiks","address":"Malkalnes 22","cuisine":"Meksikanu","website":"https://www.meksikanurestiks.lv","description":"Lielisks Ediens"},{"name":"Ilzite","address":"Malkalnes 3, Ogre","cuisine":"Latvju","website":"https://mazailzite.lv","description":"Lielisks ediens par zemam cenam!!!"},{"name":"Dinara Pils","address":"Malkalnes 22","cuisine":"Latvian","website":"https://dinarapils.com","description":"Super Ediens!"},{"name":"Dummy Restaurant","address":"Malkalnes prospekts 33-9","cuisine":"Mexikanu, Latviesu, Zviedru","website":"https://testasaits.lv","description":"Labakais ediens ko esmu edis saja pasaule! Tiesam traki gardi iesaku visiem!!\r\n"}]
+[
+    {
+        "id": "1",
+        "name": "Dinara Restiks",
+        "address": "Malkalnes 22",
+        "cuisine": "Meksikanu",
+        "website": "https://www.meksikanurestiks.lv",
+        "description": "Lielisks Ediens"
+    },
+    {
+        "id": "2",
+        "name": "Ilzite",
+        "address": "Malkalnes 3, Ogre",
+        "cuisine": "Latvju",
+        "website": "https://mazailzite.lv",
+        "description": "Lielisks ediens par zemam cenam!!!"
+    },
+    {
+        "id": "3",
+        "name": "Dinara Pils",
+        "address": "Malkalnes 22",
+        "cuisine": "Latvian",
+        "website": "https://dinarapils.com",
+        "description": "Super Ediens!"
+    },
+    {
+        "name": "Rezzy",
+        "address": "Malkalnes 22",
+        "cuisine": "Latvju",
+        "website": "http://localhost:3000/recommended",
+        "description": "Test TEST",
+        "id": "6fd7fd64-7529-4cde-8baf-c7352972b8de"
+    }
+]
