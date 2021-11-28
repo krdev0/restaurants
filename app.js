@@ -48,8 +48,7 @@ app.get('/restaurants/:id', (req, res) => {
             });
         }
     }
-
-
+    // res.render('404');
 });
 
 app.get('/recommended', (req, res) => {
@@ -80,6 +79,10 @@ app.get('/about', (req, res) => {
 
 app.get('/confirm', (req, res) => {
     res.render('confirm');
+});
+
+app.use((req, res) => {
+    res.render('404')
 });
 
 app.listen(port);
