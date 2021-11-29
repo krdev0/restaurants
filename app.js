@@ -48,7 +48,7 @@ app.get('/restaurants/:id', (req, res) => {
             });
         }
     }
-    // res.render('404');
+    res.status(404).render('404');
 });
 
 app.get('/recommended', (req, res) => {
@@ -82,11 +82,11 @@ app.get('/confirm', (req, res) => {
 });
 
 app.use((req, res) => {
-    res.render('404')
+    res.status(404).render('404')
 });
 
 app.use((error, req, res, next) => {
-    res.render('500');
+    res.status(500).render('500');
 });
 
 app.listen(port);
