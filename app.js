@@ -4,7 +4,7 @@ const express = require('express');
 
 const { json } = require('express');
 
-const port = 3000;
+const port = 3000; //Port
 
 const defaultRoutes = require('./routes/default');
 const restaurantRoutes = require('./routes/restaurants');
