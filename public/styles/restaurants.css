@@ -54,3 +54,12 @@ main {
 .restaurant-actions a:active {
     background-color: rgb(202, 141, 62);
 }
+
+.btn {
+    background-color: rgb(202, 141, 62);
+    color:#fff;
+    cursor: pointer;
+    border:none;
+    padding:5px 25px;
+    border-radius: 5px;
+}
